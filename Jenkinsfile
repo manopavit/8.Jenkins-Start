@@ -3,7 +3,7 @@ def gv
 pipeline {   
     agent any
     tools {
-        mvn 'maven-3.11'
+        maven 'maven-3.9'
     }
     
     stages {
