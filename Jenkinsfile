@@ -3,7 +3,7 @@ def gv
 pipeline {   
     agent any
     tools {
-        mvn 'version'
+        mvn '3.9.9'
     }
     
     stages {
